@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v18/MaterialSymbolsOutlined-Regular.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Adjust as needed */
+    display: inline-block;
+    line-height: 1;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* Optional variations (adjust properties as needed): */
+  .material-symbols-outlined.larger {
+    font-size: 36px;
+  }
+  
+  .material-symbols-outlined.thinner {
+    font-weight: 100;
+  }
