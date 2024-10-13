@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <title>Class CSS Advanced Techniques</title>
+</head>
+<body>
+    
+    <div class="container1">
+        <p class="container1-parraf" id="parraf1-container1">Parraf 1</p>
+        <p class="container1-parraf">Parraf 2</p>
+        <span id="span1-container1"> Span 1</span>
+    </div>
+
+    <br>
+
+    <div class="container2">
+        <p><em>Descendant</em> Selectors</p>
+        <ul>
+	        <li>Item 1</li>
+	        <li>Item 2</li>
+	        <li><em>Item 3</em></li>
+        </ul>
+    </div>
+
+    <br>
+
+    <div class="container3">
+        <p><em>Child</em> Selectors</p>
+        <div class="container3-child1">
+            <p>This is the first child</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li><em>Item 3</em></li>
+            </ul>
+        </div>
+        <p>This is the second child</p>
+    </div>
+    
+    <br>
+
+    <div class="container4">
+        <p><em>Sibling</em> Selectors</p>
+        <div class="container4-child1">
+            <p>This is the first child</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li><em>Item 3</em></li>
+            </ul>
+        </div>
+        <p class="container4-parrafs">First parraf sibling</p>
+        <p class="container4-parrafs">Second parraf sibling</p>
+        <p class="container4-parrafs">Third parraf sibling</p>
+        <p class="container4-parrafs">Fourth parraf sibling</p>
+    </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+/*
+Container inicial
+*/
+
+.container1 {
+    color:red;
+}
+
+.container1-parraf {
+    color: green;
+}
+
+#span1-container1 {
+    color:blue;
+}
+
+.container2 em {
+    color: green;
+}
+
+.container3 {
+    width: 200px;
+    display:flex;
+    flex-direction: column;
+    border: 0.5px solid black;
+}
+
+.container3 > div {
+    color: blue;
+    border: 0.5px solid blue;
+}
+
+.container4 {
+    width: 200px;
+    display:flex;
+    flex-direction: column;
+    border: 0.5px solid black;
+}
+
+.container4-child1 + p {
+    color: blue;
+    border: 0.5px solid blue;
+}
+
+
+
