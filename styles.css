@@ -1,6 +1,10 @@
 /*
 Container inicial
 */
+body {
+    margin: 0;
+    height: 100vh; /* Para evitar scroll innecesario */
+}
 
 .container1 {
     color:red;
@@ -125,3 +129,50 @@ Container inicial
     justify-content: flex-start;
     border: 0.5px solid black;
 }
+
+
+.container8 {
+    width: fit-content;
+    margin: 1%;
+    padding: 1%;
+    display:flex;
+    flex-direction: column;
+    align-items: self-start;
+    row-gap: 5px;
+    justify-content: flex-start;
+    border: 0.5px solid black;
+}
+
+#id1 {
+    width: 300px;
+    height: 100px;
+    background-image: url(https://itislands.com/wp-content/uploads/2019/06/Reboot-Academy-LOGO-peq.jpg);
+}
+
+#id2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-image: url(https://itislands.com/wp-content/uploads/2019/06/Reboot-Academy-LOGO-peq.jpg);
+    background-size: cover;
+}
+
+#id3 {
+    width: 300px;
+    height: 100px;
+    background-image: url(https://itislands.com/wp-content/uploads/2019/06/Reboot-Academy-LOGO-peq.jpg);
+    background-size: contain;
+}
+
+#id4 {
+    min-width: 200px;
+    min-height: 200px;
+    width: auto;
+    height: auto;
+    background-image: url(https://itislands.com/wp-content/uploads/2019/06/Reboot-Academy-LOGO-peq.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+  }
