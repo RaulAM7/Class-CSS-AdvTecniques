@@ -50,3 +50,28 @@ Container inicial
     color: red;
     border: 0.5px solid red;
 }
+
+
+.container5 {
+    width: 200px;
+    display:flex;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: flex-start;
+    border: 0.5px solid black;
+}
+
+.container5-foodlist li:first-child {
+    color: blue;
+    border: 0.5px solid blue; 
+}
+
+.container5-foodlist li:last-child {
+    color: red;
+    border: 0.5px solid red; 
+}
+
+.container5 p:last-child {
+    color: green;
+    border: 0.5px solid green; 
+}
