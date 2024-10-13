@@ -216,3 +216,15 @@ body {
     background: linear-gradient(170deg, pink, blue );
 }
 
+.ovoid {
+    width: 200px;
+    height: 100px;
+    background: radial-gradient(blue, pink);
+}
+  
+.circle {
+    width: 200px;
+    height: 200px;
+      background: radial-gradient(circle, blue, pink);
+}
+
